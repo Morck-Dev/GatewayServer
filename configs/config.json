@@ -1,0 +1,27 @@
+{
+  "api_url": "http://5.61.89.75",
+  "auth_url": "http://5.61.89.75",
+  "custom_cdn_server": {
+    "cdn_port": 443,
+    "cdn_protocol_type": "https",
+    "cdn_server": "cdn.example.com"
+  },
+  "custom_dns_server": {
+    "dns_port": 53,
+    "dns_server": "8.8.8.8"
+  },
+  "http_server": "https://http.example.com",
+  "mkt_v1": {
+    "enable_udp": true,
+    "encrypt_type": "aes-256-cbc",
+    "remote_port": 8080,
+    "remote_server": "mkt.example.com"
+  },
+  "pay_url": "https://pay.example.com",
+  "s5_server": "s5.example.com",
+  "sub_url": "https://sub.example.com",
+  "extend": {
+    "url": "https://extend.example.com",
+    "title": "扩展服务"
+  }
+}
